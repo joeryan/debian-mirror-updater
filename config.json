@@ -1,0 +1,17 @@
+{
+    "dt_format": "%Y-%m-%d %H:%M:%S.%f",
+    "file_path": ".",
+    "repo_base_url": "http://localhost",
+    "namespace": "{http://www.w3.org/2005/Atom}",
+    "branches": {
+        "stable": {
+            "repos": [
+                { "mirror": "debian-stable", "branch": "main", "dist": "buster" }
+            ],
+            "publish_endpoint": "debian-stable"}
+    },
+    "local_repo_root": "~",
+    "stable_remote": "localhost:/tmp/stable",
+    "unstable_remote": "localhost:/tmp/unstable",
+    "log_path": "/var/log/debian-mirror-updater.log"
+}
